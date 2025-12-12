@@ -25,15 +25,7 @@ Press ESC to exit.
 import cv2
 import numpy as np
 
-# Buka webcam
-cap = cv2.VideoCapture(0)
 
-# Canvas kosong untuk menggambar
-canvas = np.zeros((480, 640, 3), dtype=np.uint8)
-
-# Rentang warna biru (HSV)
-lower = np.array([100, 120, 70])
-upper = np.array([140, 255, 255])
 
 
 
