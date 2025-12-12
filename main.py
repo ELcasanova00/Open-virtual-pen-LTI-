@@ -43,7 +43,7 @@ while True:
         if radius > 10:
             x, y = int(x), int(y)
 
-            # Gambar garis jika ada titik sebelumnya
+            
             if x_prev is not None and y_prev is not None:
                 cv2.line(canvas, (x_prev, y_prev), (x, y), (255, 0, 0), 5)
 
@@ -67,4 +67,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
